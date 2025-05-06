@@ -1,10 +1,6 @@
-Muhammad
-Ibrahim
-ahmad
-ali
-abdul
-ali
-amna
-ahmad
-ali
-ahmad
+
+0 0 0 0 9122888 4.48416e-44
+m
+1 1 1 1 1 1
+2
+2 2 2 2 2 2

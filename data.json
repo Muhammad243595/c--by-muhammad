@@ -1,0 +1,75 @@
+{
+    "basics": {
+        "Hello World": "#include <iostream>\n\nint main() {\n    std::cout << \"Hello, World!\" << std::endl;\n    return 0;\n}"
+    },
+    "control_structures": {
+        "else_if": "if (condition1) { /* code */ } else if (condition2) { /* code */ } else { /* code */ }",
+        "if": "if (condition) { /* code */ }",
+        "if_else": "if (condition) { /* code */ } else { /* code */ }",
+        "switch": "switch (expression) {\n    case value1: /* code */ break;\n    default: /* code */\n}"
+    },
+    "data_types": {
+        "bool": "bool flag = true;",
+        "char": "char d = 'A';",
+        "double": "double c = 3.14159;",
+        "float": "float b = 3.14f;",
+        "int": "int a = 5;",
+        "string": "std::string s = \"Hello\"; // Requires #include <string>"
+    },
+    "exception_handling": {
+        "throw": "throw exception_object;",
+        "try_catch": "try {\n    // code that may throw\n} catch (const std::exception &e) {\n    // error handling\n}"
+    },
+    "functions": {
+        "declaration_definition": "return_type functionName(parameter_list) {\n    // code\n    return value;\n}",
+        "default_arguments": "e.g. void func(int a = 10) { /* code */ }",
+        "lambda": "auto func = [] (parameters) { /* code */ };",
+        "overloading": "Functions with the same name but different parameters."
+    },
+    "loops": {
+        "do_while": "do { /* code */ } while (condition);",
+        "for": "for (initialization; condition; increment) { /* code */ }",
+        "while": "while (condition) { /* code */ }"
+    },
+    "miscellaneous": {
+        "comments": {
+            "multi_line": "/* This is a multi-line comment */",
+            "single_line": "// This is a single-line comment"
+        },
+        "namespace": "using namespace std; // Not recommended in header files"
+    },
+    "object_oriented_programming": {
+        "classes": "class ClassName {\npublic:\n    // members and methods\nprivate:\n    // members\n};",
+        "encapsulation": "Use private and protected access specifiers.",
+        "inheritance": "class Derived : public Base { /* code */ };",
+        "objects": "ClassName obj;",
+        "polymorphism": "Use virtual functions and override in derived classes."
+    },
+    "operators": {
+        "arithmetic": "+, -, *, /, %",
+        "assignment": "=, +=, -=, *=, /=, %=",
+        "bitwise": "&, |, ^, ~, <<, >>",
+        "logical": "&&, ||, !",
+        "relational": "==, !=, >, <, >=, <="
+    },
+    "pointers": {
+        "definition": "type* pointerName = &variable;",
+        "pointer_arithmetic": "pointer++ or pointer-- to traverse an array."
+    },
+    "preprocessor_directives": {
+        "conditional_compilation": "#ifdef, #ifndef, #endif",
+        "define": "#define CONSTANT value",
+        "include": "#include <header>"
+    },
+    "references": {
+        "definition": "type &ref = variable;"
+    },
+    "templates": {
+        "class_template": "template<class T>\nclass ClassName { /* code */ };",
+        "function_template": "template<typename T>\nT functionName(T param) { /* code */ }"
+    },
+    "variables": {
+        "constants": "const type variable = value; // e.g. const int y = 20;",
+        "declaration": "type variable = value; // e.g. int x = 10;"
+    }
+}
